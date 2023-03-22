@@ -24,7 +24,8 @@ jobs:
         id: docker_meta
         uses: docker/metadata-action@v4
         with:
-          images: tags: ghcr.io/polymetis-project/wordsmith-web
+          images: 
+          tags: ghcr.io/polymetis-project/wordsmith-web
           flavor: |
             latest=false
           tags: |
