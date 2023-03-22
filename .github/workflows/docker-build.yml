@@ -24,4 +24,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: ${{ github.event_name != 'pull_request' }}
-          tags: polymetis-project/wordpress-web:latest
+          tags: polymetis-project/wordsmith-web:latest
