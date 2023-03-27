@@ -8,6 +8,5 @@ jobs:
    name: Scan
    uses: polymetis-project/actions/.github/workflows/reusable-trivy.yml@main
    with: 
-    image-name: ghcr.io/polymetis-project/wordsmith-web
-    image-tag: gha-${{ github.run_id }}
+    image: 'ghcr.io/<org>/wordsmith-web:latest'
  
