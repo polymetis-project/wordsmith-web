@@ -10,5 +10,3 @@ jobs:
     with:
       image-name: 'ghcr.io/polymetis-project/wordsmith-web'
       image-tag: gha-${{ github.run_id }}
-
- 
