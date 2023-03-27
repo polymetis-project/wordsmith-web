@@ -1,0 +1,9 @@
+name: Call Trivy
+on:
+ push:
+   branches: [main]
+ pull_request:
+jobs:
+ scan:
+   name: Scan
+   uses: polymetis-project/actions/.github/workflows/reusable-trivy.yml@main
